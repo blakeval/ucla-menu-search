@@ -1,0 +1,474 @@
+{
+  "scraped_date": "2026-09-17",
+  "items": [
+    {
+      "hall": "De Neve Dining",
+      "meal": "Breakfast",
+      "station": "The Front Burner",
+      "name": "Huevos Rancheros",
+      "tags": [
+        "Vegetarian",
+        "Soy",
+        "Dairy",
+        "Eggs"
+      ]
+    },
+    {
+      "hall": "De Neve Dining",
+      "meal": "Breakfast",
+      "station": "The Front Burner",
+      "name": "Pork Sausage",
+      "tags": []
+    },
+    {
+      "hall": "De Neve Dining",
+      "meal": "Breakfast",
+      "station": "The Kitchen",
+      "name": "Scrambled Eggs",
+      "tags": [
+        "Vegetarian",
+        "Low-carbon",
+        "Eggs"
+      ]
+    },
+    {
+      "hall": "De Neve Dining",
+      "meal": "Breakfast",
+      "station": "The Kitchen",
+      "name": "Fried Eggs",
+      "tags": [
+        "Vegetarian",
+        "Low-carbon",
+        "Eggs"
+      ]
+    },
+    {
+      "hall": "De Neve Dining",
+      "meal": "Breakfast",
+      "station": "The Grill",
+      "name": "Bodega Egg & Bacon Roll",
+      "tags": [
+        "Soy",
+        "Gluten",
+        "Wheat",
+        "Sesame",
+        "Dairy",
+        "Eggs"
+      ]
+    },
+    {
+      "hall": "De Neve Dining",
+      "meal": "Breakfast",
+      "station": "Simply Grilled",
+      "name": "Simply Grilled Vegetarian Special",
+      "tags": [
+        "Fish",
+        "Soy",
+        "Crustacean-shellfish",
+        "Gluten",
+        "Peanut",
+        "Tree-nuts",
+        "Wheat",
+        "Sesame",
+        "Dairy",
+        "Eggs",
+        "Alcohol"
+      ]
+    },
+    {
+      "hall": "Sproul Dining",
+      "meal": "Breakfast",
+      "station": "Freshly Bowled",
+      "name": "Tri-Tip, Red Potato, Egg, & Arugula Bowl",
+      "tags": [
+        "High-carbon",
+        "Eggs"
+      ]
+    },
+    {
+      "hall": "Sproul Dining",
+      "meal": "Breakfast",
+      "station": "Harvest",
+      "name": "Scrambled Eggs",
+      "tags": [
+        "Vegetarian",
+        "Low-carbon",
+        "Halal",
+        "Eggs"
+      ]
+    },
+    {
+      "hall": "Sproul Dining",
+      "meal": "Breakfast",
+      "station": "Harvest",
+      "name": "Turkey Bacon",
+      "tags": []
+    },
+    {
+      "hall": "De Neve Dining",
+      "meal": "Lunch",
+      "station": "The Kitchen",
+      "name": "Country Fried Beef Steak",
+      "tags": [
+        "High-carbon",
+        "Soy",
+        "Gluten",
+        "Wheat"
+      ]
+    },
+    {
+      "hall": "De Neve Dining",
+      "meal": "Lunch",
+      "station": "The Front Burner",
+      "name": "Beyond Chicken Tenders",
+      "tags": [
+        "Vegan",
+        "Low-carbon",
+        "Soy",
+        "Gluten",
+        "Wheat"
+      ]
+    },
+    {
+      "hall": "De Neve Dining",
+      "meal": "Lunch",
+      "station": "The Pizzeria",
+      "name": "Meatball Pizza",
+      "tags": [
+        "High-carbon",
+        "Soy",
+        "Gluten",
+        "Wheat",
+        "Dairy"
+      ]
+    },
+    {
+      "hall": "De Neve Dining",
+      "meal": "Lunch",
+      "station": "The Pizzeria",
+      "name": "Pepperoni Pizza",
+      "tags": [
+        "High-carbon",
+        "Gluten",
+        "Wheat",
+        "Dairy"
+      ]
+    },
+    {
+      "hall": "De Neve Dining",
+      "meal": "Lunch",
+      "station": "The Grill",
+      "name": "Bruin Burger",
+      "tags": [
+        "High-carbon",
+        "Halal",
+        "Soy",
+        "Gluten",
+        "Wheat",
+        "Sesame",
+        "Eggs"
+      ]
+    },
+    {
+      "hall": "De Neve Dining",
+      "meal": "Lunch",
+      "station": "The Grill",
+      "name": "Bruin Cheeseburger",
+      "tags": [
+        "High-carbon",
+        "Halal",
+        "Soy",
+        "Gluten",
+        "Wheat",
+        "Sesame",
+        "Dairy",
+        "Eggs"
+      ]
+    },
+    {
+      "hall": "De Neve Dining",
+      "meal": "Lunch",
+      "station": "The Grill",
+      "name": "LA Hot Chicken Sandwich",
+      "tags": [
+        "Soy",
+        "Gluten",
+        "Wheat",
+        "Sesame",
+        "Dairy",
+        "Eggs"
+      ]
+    },
+    {
+      "hall": "De Neve Dining",
+      "meal": "Lunch",
+      "station": "The Grill",
+      "name": "Mushroom & Swiss Turkey Burger",
+      "tags": [
+        "Soy",
+        "Gluten",
+        "Wheat",
+        "Sesame",
+        "Dairy",
+        "Eggs"
+      ]
+    },
+    {
+      "hall": "De Neve Dining",
+      "meal": "Lunch",
+      "station": "The Grill",
+      "name": "Beyond Burger",
+      "tags": [
+        "Vegan",
+        "Low-carbon",
+        "Soy",
+        "Gluten",
+        "Wheat",
+        "Sesame"
+      ]
+    },
+    {
+      "hall": "De Neve Dining",
+      "meal": "Lunch",
+      "station": "Harvest Kitchen",
+      "name": "Tacos de Camaron Gobernador Estilo Sinaloa",
+      "tags": [
+        "Soy",
+        "Crustacean-shellfish",
+        "Dairy"
+      ]
+    },
+    {
+      "hall": "De Neve Dining",
+      "meal": "Lunch",
+      "station": "Harvest Kitchen",
+      "name": "Chicken Tortilla Soup",
+      "tags": []
+    },
+    {
+      "hall": "De Neve Dining",
+      "meal": "Lunch",
+      "station": "Field Greens Bar",
+      "name": "Caesar Salad Dressing",
+      "tags": [
+        "Fish",
+        "Soy",
+        "Dairy",
+        "Eggs"
+      ]
+    },
+    {
+      "hall": "De Neve Dining",
+      "meal": "Lunch",
+      "station": "Field Greens Bar",
+      "name": "Grilled Rosemary Chicken Breast",
+      "tags": []
+    },
+    {
+      "hall": "De Neve Dining",
+      "meal": "Lunch",
+      "station": "Field Greens Bar",
+      "name": "Salad Bar",
+      "tags": [
+        "Fish",
+        "Soy",
+        "Crustacean-shellfish",
+        "Gluten",
+        "Wheat",
+        "Dairy",
+        "Eggs",
+        "Alcohol"
+      ]
+    },
+    {
+      "hall": "De Neve Dining",
+      "meal": "Lunch",
+      "station": "Market Salads & Fruit",
+      "name": "Shrimp Ceviche Tostada Bar",
+      "tags": [
+        "Soy",
+        "Crustacean-shellfish",
+        "Dairy"
+      ]
+    },
+    {
+      "hall": "De Neve Dining",
+      "meal": "Lunch",
+      "station": "Market Salads & Fruit",
+      "name": "Sonoma Walnut Chicken Salad",
+      "tags": [
+        "Soy",
+        "Tree-nuts",
+        "Eggs"
+      ]
+    },
+    {
+      "hall": "Sproul Dining",
+      "meal": "Lunch",
+      "station": "Soups",
+      "name": "Chicken Tortilla Soup",
+      "tags": []
+    },
+    {
+      "hall": "Sproul Dining",
+      "meal": "Lunch",
+      "station": "Freshly Bowled",
+      "name": "Black Quinoa, BBQ Chicken, & Red Bean Bowl",
+      "tags": []
+    },
+    {
+      "hall": "Sproul Dining",
+      "meal": "Lunch",
+      "station": "Harvest",
+      "name": "Turkey, Balsamic Onion, & Chevre Wrap",
+      "tags": [
+        "Gluten",
+        "Wheat",
+        "Dairy"
+      ]
+    },
+    {
+      "hall": "Sproul Dining",
+      "meal": "Lunch",
+      "station": "Simply Grilled",
+      "name": "Moroccan Grilled Chicken Thigh",
+      "tags": []
+    },
+    {
+      "hall": "Sproul Dining",
+      "meal": "Lunch",
+      "station": "Greens 'N More",
+      "name": "Salad Bar Selection",
+      "tags": [
+        "Fish",
+        "Soy",
+        "Gluten",
+        "Wheat",
+        "Sesame",
+        "Dairy",
+        "Eggs",
+        "Alcohol"
+      ]
+    },
+    {
+      "hall": "Covel Dining",
+      "meal": "Lunch",
+      "station": "Capri",
+      "name": "Build-Your-Own Pasta Bowl",
+      "tags": [
+        "Fish",
+        "Soy",
+        "Crustacean-shellfish",
+        "Gluten",
+        "Wheat",
+        "Dairy",
+        "Eggs"
+      ]
+    },
+    {
+      "hall": "Covel Dining",
+      "meal": "Lunch",
+      "station": "Capri",
+      "name": "Shrimp",
+      "tags": [
+        "Halal",
+        "Crustacean-shellfish"
+      ]
+    },
+    {
+      "hall": "Covel Dining",
+      "meal": "Lunch",
+      "station": "Psistaris",
+      "name": "Italian Sausage & Fig Focaccia Sandwich",
+      "tags": [
+        "Gluten",
+        "Wheat",
+        "Dairy"
+      ]
+    },
+    {
+      "hall": "Covel Dining",
+      "meal": "Lunch",
+      "station": "Alimenti",
+      "name": "North African Style Honey Chicken",
+      "tags": [
+        "Halal"
+      ]
+    },
+    {
+      "hall": "Covel Dining",
+      "meal": "Lunch",
+      "station": "Alimenti",
+      "name": "Steak & Mushroom Soup",
+      "tags": [
+        "High-carbon",
+        "Soy",
+        "Gluten",
+        "Wheat"
+      ]
+    },
+    {
+      "hall": "Covel Dining",
+      "meal": "Lunch",
+      "station": "Alimenti",
+      "name": "Salad Bar Selection",
+      "tags": [
+        "Fish",
+        "Soy",
+        "Gluten",
+        "Wheat",
+        "Dairy",
+        "Eggs",
+        "Alcohol"
+      ]
+    },
+    {
+      "hall": "Covel Dining",
+      "meal": "Lunch",
+      "station": "Mezze",
+      "name": "Hergma Beef Stew",
+      "tags": [
+        "High-carbon",
+        "Halal",
+        "Gluten",
+        "Wheat"
+      ]
+    },
+    {
+      "hall": "Covel Dining",
+      "meal": "Lunch",
+      "station": "Mezze",
+      "name": "Harissa Pork Ribs",
+      "tags": [
+        "Alcohol"
+      ]
+    },
+    {
+      "hall": "Covel Dining",
+      "meal": "Lunch",
+      "station": "Capri Pizza",
+      "name": "Smoked Chicken & Pesto Pizza",
+      "tags": [
+        "Halal",
+        "Gluten",
+        "Wheat",
+        "Dairy"
+      ]
+    },
+    {
+      "hall": "Covel Dining",
+      "meal": "Lunch",
+      "station": "Capri Pizza",
+      "name": "Caesar Salad",
+      "tags": [
+        "Halal",
+        "Fish",
+        "Soy",
+        "Gluten",
+        "Wheat",
+        "Dairy",
+        "Eggs"
+      ]
+    }
+  ]
+}
