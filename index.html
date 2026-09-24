@@ -237,15 +237,23 @@
 let MENU_DATA = null;
 let items = [];
 
+const FISH_KEYWORDS = ["fish","salmon","tilapia","cod","tuna","halibut","anchovy","trout","snapper","mahi"];
+const SHELLFISH_KEYWORDS = ["shrimp","shellfish","crab","lobster","scallop","camaron","ceviche","prawn"];
+
 fetch('menu.json')
   .then(r => r.json())
   .then(data => {
     MENU_DATA = data;
-    items = MENU_DATA.items.map(it => ({
-      ...it,
-      hasFish: it.tags.includes("Fish"),
-      hasShellfish: it.tags.includes("Crustacean-shellfish")
-    }));
+    items = MENU_DATA.items.map(it => {
+      const nameLower = it.name.toLowerCase();
+      return {
+        ...it,
+        hasFish: it.tags.includes("Fish"),                        // for the allergen badge only
+        hasShellfish: it.tags.includes("Crustacean-shellfish"),    // for the allergen badge only
+        isFishDish: FISH_KEYWORDS.some(k => nameLower.includes(k)),
+        isShellfishDish: SHELLFISH_KEYWORDS.some(k => nameLower.includes(k)),
+      };
+    });
     document.getElementById('dateLabel').textContent = new Date(MENU_DATA.scraped_date + 'T00:00:00').toLocaleDateString(undefined, {weekday:'long', month:'long', day:'numeric'});
     initMenu();
   })
@@ -284,8 +292,8 @@ const CHIPS = ["Chicken", "Beef", "Pork", "Turkey", "Fish", "Shellfish", "Tofu"]
 let activeChip = null;
 
 function chipMatches(chip, item){
-  if(chip === "Fish") return item.hasFish;
-  if(chip === "Shellfish") return item.hasShellfish;
+  if(chip === "Fish") return item.isFishDish;
+  if(chip === "Shellfish") return item.isShellfishDish;
   // No structured tag for these from UCLA's allergen icons — match on the item name instead.
   return item.name.toLowerCase().includes(chip.toLowerCase());
 }
@@ -317,7 +325,10 @@ function render(){
     filtered = filtered.filter(it => chipMatches(activeChip, it));
   }
   if(q){
-    filtered = filtered.filter(it => it.name.toLowerCase().includes(q) || it.tags.some(t => t.toLowerCase().includes(q)));
+    filtered = filtered.filter(it =>
+      it.name.toLowerCase().includes(q) ||
+      it.tags.some(t => t !== "Fish" && t !== "Crustacean-shellfish" && t.toLowerCase().includes(q))
+    );
   }
 
   const noFilters = activeMeal === "All" && !activeChip && !q;
