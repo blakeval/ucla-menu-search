@@ -1,10 +1,13 @@
 name: Update UCLA menu data
 
 # Runs every morning and whenever you manually trigger it from the Actions tab.
-# Cron time is in UTC — 13:00 UTC is 6:00am Pacific (5:00am during daylight saving).
+# Cron time is in UTC — 17:00 UTC is 10:00am Pacific (9:00am during daylight
+# saving). Pushed later than 6am so UCLA's page has actually posted the
+# day's menu before we scrape it — running too early was likely why the
+# site was showing yesterday's menu.
 on:
   schedule:
-    - cron: "0 13 * * *"
+    - cron: "0 17 * * *"
   workflow_dispatch: {}  # adds a "Run workflow" button so you can trigger it by hand
 
 permissions:
