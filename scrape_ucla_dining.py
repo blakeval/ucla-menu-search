@@ -32,12 +32,16 @@ NOTES / TODO before you rely on this daily:
 import json
 import re
 import sys
-from datetime import date
+from datetime import date, datetime
 
 import requests
 from bs4 import BeautifulSoup
 
 MENU_URL = "https://dining.ucla.edu/menus-at-a-glance/"
+
+# Matches the date UCLA prints in their own heading, e.g.
+# "BREAKFAST MENU FOR TODAY, SEPTEMBER 17, 2026" -> "SEPTEMBER 17, 2026"
+PAGE_DATE_RE = re.compile(r"([A-Za-z]+ \d{1,2},?\s*\d{4})")
 
 # If you find the real date-param pattern, put it here, e.g.:
 # FUTURE_DATE_URL_TEMPLATE = "https://dining.ucla.edu/menus-at-a-glance/?date={date}"
@@ -75,9 +79,15 @@ def fetch_menu_html(target_date: date | None = None) -> str:
     return resp.text
 
 
-def parse_menu(html: str) -> list[dict]:
+def parse_menu(html: str):
+    """Returns (items, menu_date). menu_date is the date UCLA's own page
+    says the menu is for (parsed straight out of their heading text), or
+    None if that text couldn't be found/parsed — in which case the caller
+    should treat the data's freshness as unverified rather than assuming
+    it's "today"."""
     soup = BeautifulSoup(html, "html.parser")
     items = []
+    menu_date = None
 
     # The page is organized: H2 "BREAKFAST MENU FOR TODAY..." / H3 hall name
     # / H4 station name / <ul><li><a>Item Name</a><img alt="Tag">...</li></ul>
@@ -91,6 +101,18 @@ def parse_menu(html: str) -> list[dict]:
             m = re.search(r"(BREAKFAST|LUNCH|DINNER)", text, re.I)
             if m:
                 meal_heading = m.group(1).title()
+            if menu_date is None:
+                date_m = PAGE_DATE_RE.search(text)
+                if date_m:
+                    for fmt in ("%B %d, %Y", "%B %d %Y"):
+                        try:
+                            menu_date = datetime.strptime(
+                                date_m.group(1).replace(",", ", ").replace(",  ", ", "),
+                                fmt,
+                            ).date().isoformat()
+                            break
+                        except ValueError:
+                            continue
         elif el.name == "h3":
             hall_heading = el.get_text(strip=True)
         elif el.name == "h4":
@@ -118,7 +140,7 @@ def parse_menu(html: str) -> list[dict]:
                 "recipe_url": link.get("href", ""),
             })
 
-    return items
+    return items, menu_date
 
 
 def is_protein_item(item: dict) -> bool:
@@ -134,10 +156,17 @@ def is_protein_item(item: dict) -> bool:
 
 def main():
     html = fetch_menu_html()
-    items = parse_menu(html)
+    items, menu_date = parse_menu(html)
     protein_items = [it for it in items if is_protein_item(it)]
+    run_date = date.today().isoformat()
     output = {
-        "scraped_date": date.today().isoformat(),
+        # The date UCLA's own page says the menu is for. Falls back to the
+        # run date only if that text couldn't be parsed — check
+        # "date_extracted_from_page" before trusting this on a day UCLA
+        # changes their page layout.
+        "scraped_date": menu_date or run_date,
+        "date_extracted_from_page": menu_date is not None,
+        "scraped_at": run_date,
         "item_count": len(protein_items),
         "total_items_seen": len(items),
         "items": protein_items,
