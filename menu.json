@@ -1,25 +1,39 @@
 {
-  "scraped_date": "2026-09-27",
+  "scraped_date": "2026-09-28",
   "date_extracted_from_page": true,
-  "scraped_at": "2026-09-27",
+  "scraped_at": "2026-09-28",
   "is_stale": false,
   "hall_dates": {
-    "Bruin Plate": "2026-09-27",
-    "De Neve Dining": "2026-09-27",
-    "Epicuria at Covel": "2026-09-27",
-    "Feast at Rieber": "2026-09-27"
+    "Bruin Plate": "2026-09-28",
+    "De Neve Dining": "2026-09-28",
+    "Epicuria at Covel": "2026-09-28",
+    "Feast at Rieber": "2026-09-28"
   },
-  "item_count": 55,
-  "total_items_seen": 333,
+  "item_count": 74,
+  "total_items_seen": 431,
   "items": [
     {
       "hall": "Bruin Plate",
       "meal": "Breakfast",
-      "station": "Harvest",
-      "name": "Tri Tip, Egg White, & Smoked Gouda Sandwich",
+      "station": "Freshly Bowled",
+      "name": "Barley, Seasoned Turkey, Kale, & Egg Bowl",
       "tags": [
-        "High carbon footprint food item",
         "Contains soy",
+        "Contains Gluten",
+        "Contains wheat",
+        "Contains egg"
+      ],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=4201"
+    },
+    {
+      "hall": "Bruin Plate",
+      "meal": "Breakfast",
+      "station": "Harvest",
+      "name": "Egg & Sweet Potato Burrito w/ Green Chile Salsa",
+      "tags": [
+        "Vegetarian food item",
         "Contains Gluten",
         "Contains wheat",
         "Contains dairy",
@@ -27,7 +41,7 @@
       ],
       "has_fish": false,
       "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=3342"
+      "recipe_url": "/menu-item/?recipe=3865"
     },
     {
       "hall": "Bruin Plate",
@@ -88,153 +102,174 @@
       "hall": "Bruin Plate",
       "meal": "Lunch",
       "station": "Soups",
-      "name": "Chicken Tortilla Soup",
-      "tags": [],
-      "has_fish": false,
-      "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=1976"
-    },
-    {
-      "hall": "Bruin Plate",
-      "meal": "Lunch",
-      "station": "Harvest",
-      "name": "Pulled Pork Tenderloin Taco",
+      "name": "Chicken Noodle Soup",
       "tags": [
         "Contains Gluten",
         "Contains wheat"
       ],
       "has_fish": false,
       "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=3270"
+      "recipe_url": "/menu-item/?recipe=447"
+    },
+    {
+      "hall": "Bruin Plate",
+      "meal": "Lunch",
+      "station": "Freshly Bowled",
+      "name": "Quinoa Vegetable Stir Fry w/ Egg",
+      "tags": [
+        "Vegetarian food item",
+        "Contains soy",
+        "Contains Gluten",
+        "Contains wheat",
+        "Contains egg"
+      ],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=4047"
+    },
+    {
+      "hall": "Bruin Plate",
+      "meal": "Lunch",
+      "station": "Harvest",
+      "name": "Chicken, Farro, & Mixed Greens Salad",
+      "tags": [
+        "Contains Gluten",
+        "Contains wheat",
+        "Contains dairy",
+        "Food item prepared with alcohol"
+      ],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=4100"
+    },
+    {
+      "hall": "Bruin Plate",
+      "meal": "Lunch",
+      "station": "Harvest",
+      "name": "BBQ Tempeh Wrap",
+      "tags": [
+        "Vegan food item",
+        "Low carbon footprint food item",
+        "Contains soy",
+        "Contains Gluten",
+        "Contains wheat"
+      ],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=3507"
     },
     {
       "hall": "Bruin Plate",
       "meal": "Lunch",
       "station": "Stone Fired",
-      "name": "Lamb, Tomato, Onion & Jalapeno Flatbread",
+      "name": "BBQ Pork Tortilla Pizza",
       "tags": [
-        "High carbon footprint food item",
-        "Halal food item",
         "Contains soy",
-        "Contains Gluten",
-        "Contains wheat",
         "Contains sesame seeds",
         "Contains dairy"
       ],
       "has_fish": false,
       "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=3642"
+      "recipe_url": "/menu-item/?recipe=2221"
     },
     {
       "hall": "Bruin Plate",
       "meal": "Lunch",
       "station": "Simply Grilled",
-      "name": "Halal Lemon Oregano Chicken Thigh",
+      "name": "Grilled Sundried Tomato Marinated Chicken Thigh",
       "tags": [
-        "Halal food item",
         "Food item prepared with alcohol"
       ],
       "has_fish": false,
       "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=7584"
+      "recipe_url": "/menu-item/?recipe=2976"
     },
     {
       "hall": "Bruin Plate",
       "meal": "Dinner",
       "station": "Soups",
-      "name": "Chicken Tortilla Soup",
-      "tags": [],
+      "name": "Chicken Noodle Soup",
+      "tags": [
+        "Contains Gluten",
+        "Contains wheat"
+      ],
       "has_fish": false,
       "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=1976"
+      "recipe_url": "/menu-item/?recipe=447"
     },
     {
       "hall": "Bruin Plate",
       "meal": "Dinner",
       "station": "Freshly Bowled",
-      "name": "Lamb, Whole Wheat Penne, & Swiss Chard Bowl",
+      "name": "Seared Tofu Quinoa Bowl w/ Ginger Miso Dressing",
       "tags": [
-        "High carbon footprint food item",
-        "Halal food item",
+        "Vegan food item",
+        "Low carbon footprint food item",
+        "Contains soy",
         "Contains Gluten",
         "Contains wheat",
-        "Contains dairy"
+        "Contains sesame seeds"
       ],
       "has_fish": false,
       "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=1095"
+      "recipe_url": "/menu-item/?recipe=4403"
     },
     {
       "hall": "Bruin Plate",
       "meal": "Dinner",
       "station": "Harvest",
-      "name": "Roasted Lemongrass-Ginger Chicken",
+      "name": "Sesame Salmon & Bok Choy",
       "tags": [
+        "Contains fish",
+        "Contains sesame seeds",
+        "Food item prepared with alcohol"
+      ],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=3763"
+    },
+    {
+      "hall": "Bruin Plate",
+      "meal": "Dinner",
+      "station": "Stone Fired",
+      "name": "Spicy Pork Tortilla Pizza",
+      "tags": [
+        "Contains sesame seeds",
+        "Contains dairy"
+      ],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=3587"
+    },
+    {
+      "hall": "Bruin Plate",
+      "meal": "Dinner",
+      "station": "Simply Grilled",
+      "name": "Pipi Kalua Flank Steak",
+      "tags": [
+        "High carbon footprint food item",
+        "Halal food item",
         "Contains soy",
         "Contains Gluten",
         "Contains wheat"
       ],
       "has_fish": false,
       "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=2499"
+      "recipe_url": "/menu-item/?recipe=2028"
     },
     {
       "hall": "Bruin Plate",
       "meal": "Dinner",
-      "station": "Harvest",
-      "name": "Chili Tofu Over Quinoa Vegetable Pilaf",
+      "station": "Simply Grilled",
+      "name": "Grilled African Spiced Tofu",
       "tags": [
         "Vegan food item",
         "Low carbon footprint food item",
-        "Halal food item",
         "Contains soy"
       ],
       "has_fish": false,
       "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=3686"
-    },
-    {
-      "hall": "Bruin Plate",
-      "meal": "Dinner",
-      "station": "Stone Fired",
-      "name": "Spicy Beef & Eggplant Flatbread",
-      "tags": [
-        "High carbon footprint food item",
-        "Halal food item",
-        "Contains soy",
-        "Contains Gluten",
-        "Contains wheat",
-        "Contains sesame seeds",
-        "Contains dairy"
-      ],
-      "has_fish": false,
-      "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=4236"
-    },
-    {
-      "hall": "Bruin Plate",
-      "meal": "Dinner",
-      "station": "Simply Grilled",
-      "name": "Grilled Mustard Maple Pork Tenderloin",
-      "tags": [
-        "Food item prepared with alcohol"
-      ],
-      "has_fish": false,
-      "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=4395"
-    },
-    {
-      "hall": "Bruin Plate",
-      "meal": "Dinner",
-      "station": "Simply Grilled",
-      "name": "Grilled Eggplant",
-      "tags": [
-        "Vegan food item",
-        "Low carbon footprint food item"
-      ],
-      "has_fish": false,
-      "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=3459"
+      "recipe_url": "/menu-item/?recipe=4110"
     },
     {
       "hall": "De Neve Dining",
@@ -282,11 +317,11 @@
       "hall": "De Neve Dining",
       "meal": "Breakfast",
       "station": "The Kitchen",
-      "name": "Pork Sausage",
+      "name": "Bacon",
       "tags": [],
       "has_fish": false,
       "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=2031"
+      "recipe_url": "/menu-item/?recipe=1769"
     },
     {
       "hall": "De Neve Dining",
@@ -308,6 +343,22 @@
     {
       "hall": "De Neve Dining",
       "meal": "Breakfast",
+      "station": "The Grill",
+      "name": "Egg Benedict Sandwich",
+      "tags": [
+        "Vegetarian food item",
+        "Contains Gluten",
+        "Contains wheat",
+        "Contains dairy",
+        "Contains egg"
+      ],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=1616"
+    },
+    {
+      "hall": "De Neve Dining",
+      "meal": "Breakfast",
       "station": "Market Salads & Fruit",
       "name": "Black Forest Ham",
       "tags": [],
@@ -318,68 +369,40 @@
     {
       "hall": "De Neve Dining",
       "meal": "Lunch",
-      "station": "The Kitchen",
-      "name": "Scrambled Eggs",
+      "station": "The Front Burner",
+      "name": "Fresno Chili Shrimp",
       "tags": [
-        "Vegetarian food item",
-        "Low carbon footprint food item",
-        "Contains egg"
+        "Crustacean shellfish food item"
       ],
       "has_fish": false,
       "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=6542"
+      "recipe_url": "/menu-item/?recipe=9681"
     },
     {
       "hall": "De Neve Dining",
       "meal": "Lunch",
-      "station": "The Kitchen",
-      "name": "Fried Eggs",
-      "tags": [
-        "Vegetarian food item",
-        "Low carbon footprint food item",
-        "Contains egg"
-      ],
-      "has_fish": false,
-      "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=6121"
-    },
-    {
-      "hall": "De Neve Dining",
-      "meal": "Lunch",
-      "station": "The Kitchen",
-      "name": "Scrambled Egg Whites",
-      "tags": [
-        "Vegetarian food item",
-        "Low carbon footprint food item",
-        "Contains egg"
-      ],
-      "has_fish": false,
-      "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=9742"
-    },
-    {
-      "hall": "De Neve Dining",
-      "meal": "Lunch",
-      "station": "The Kitchen",
-      "name": "Pork Sausage",
+      "station": "The Front Burner",
+      "name": "Fresno Chili Beyond Beef",
       "tags": [],
       "has_fish": false,
       "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=2031"
+      "recipe_url": "/menu-item/?recipe=9687"
     },
     {
       "hall": "De Neve Dining",
       "meal": "Lunch",
       "station": "The Pizzeria",
-      "name": "Garlic Chicken Pizza",
+      "name": "Chicken Ranch Pizza",
       "tags": [
+        "Contains soy",
         "Contains Gluten",
         "Contains wheat",
-        "Contains dairy"
+        "Contains dairy",
+        "Contains egg"
       ],
       "has_fish": false,
       "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=1882"
+      "recipe_url": "/menu-item/?recipe=3804"
     },
     {
       "hall": "De Neve Dining",
@@ -439,18 +462,19 @@
       "hall": "De Neve Dining",
       "meal": "Lunch",
       "station": "The Grill",
-      "name": "Brunch Burger",
+      "name": "SoCal Burger",
       "tags": [
         "High carbon footprint food item",
         "Contains soy",
         "Contains Gluten",
         "Contains wheat",
         "Contains sesame seeds",
+        "Contains dairy",
         "Contains egg"
       ],
       "has_fish": false,
       "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=1933"
+      "recipe_url": "/menu-item/?recipe=2606"
     },
     {
       "hall": "De Neve Dining",
@@ -473,23 +497,21 @@
       "hall": "De Neve Dining",
       "meal": "Lunch",
       "station": "Harvest Kitchen",
-      "name": "Garlic Marinated Chicken Thigh",
+      "name": "Lemon Garlic Chicken Thighs",
       "tags": [],
       "has_fish": false,
       "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=6907"
+      "recipe_url": "/menu-item/?recipe=2692"
     },
     {
       "hall": "De Neve Dining",
       "meal": "Lunch",
       "station": "Harvest Kitchen",
-      "name": "Rustic Sausage Potato Kale Soup",
-      "tags": [
-        "Contains dairy"
-      ],
+      "name": "Chicken Tortilla Soup",
+      "tags": [],
       "has_fish": false,
       "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=10041"
+      "recipe_url": "/menu-item/?recipe=1976"
     },
     {
       "hall": "De Neve Dining",
@@ -513,32 +535,47 @@
     },
     {
       "hall": "De Neve Dining",
-      "meal": "Dinner",
-      "station": "The Kitchen",
-      "name": "Texas BBQ Beef Brisket Nachos w/ Spicy Green Chili Cheese Sauce",
+      "meal": "Lunch",
+      "station": "Market Salads & Fruit",
+      "name": "Shrimp Ceviche Tostada Bar",
       "tags": [
-        "High carbon footprint food item",
         "Contains soy",
-        "Contains Gluten",
-        "Contains wheat"
+        "Crustacean shellfish food item",
+        "Contains dairy"
       ],
       "has_fish": false,
       "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=3423"
+      "recipe_url": "/menu-item/?recipe=7941"
+    },
+    {
+      "hall": "De Neve Dining",
+      "meal": "Dinner",
+      "station": "The Kitchen",
+      "name": "Santa Maria Grilled Tofu",
+      "tags": [
+        "Vegan food item",
+        "Low carbon footprint food item",
+        "Contains soy"
+      ],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=7295"
     },
     {
       "hall": "De Neve Dining",
       "meal": "Dinner",
       "station": "The Pizzeria",
-      "name": "Garlic Chicken Pizza",
+      "name": "Chicken Ranch Pizza",
       "tags": [
+        "Contains soy",
         "Contains Gluten",
         "Contains wheat",
-        "Contains dairy"
+        "Contains dairy",
+        "Contains egg"
       ],
       "has_fish": false,
       "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=1882"
+      "recipe_url": "/menu-item/?recipe=3804"
     },
     {
       "hall": "De Neve Dining",
@@ -598,18 +635,19 @@
       "hall": "De Neve Dining",
       "meal": "Dinner",
       "station": "The Grill",
-      "name": "Brunch Burger",
+      "name": "SoCal Burger",
       "tags": [
         "High carbon footprint food item",
         "Contains soy",
         "Contains Gluten",
         "Contains wheat",
         "Contains sesame seeds",
+        "Contains dairy",
         "Contains egg"
       ],
       "has_fish": false,
       "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=1933"
+      "recipe_url": "/menu-item/?recipe=2606"
     },
     {
       "hall": "De Neve Dining",
@@ -632,23 +670,21 @@
       "hall": "De Neve Dining",
       "meal": "Dinner",
       "station": "Harvest Kitchen",
-      "name": "Garlic Marinated Chicken Thigh",
+      "name": "Lemon Garlic Chicken Thighs",
       "tags": [],
       "has_fish": false,
       "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=6907"
+      "recipe_url": "/menu-item/?recipe=2692"
     },
     {
       "hall": "De Neve Dining",
       "meal": "Dinner",
       "station": "Harvest Kitchen",
-      "name": "Rustic Sausage Potato Kale Soup",
-      "tags": [
-        "Contains dairy"
-      ],
+      "name": "Chicken Tortilla Soup",
+      "tags": [],
       "has_fish": false,
       "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=10041"
+      "recipe_url": "/menu-item/?recipe=1976"
     },
     {
       "hall": "De Neve Dining",
@@ -722,36 +758,49 @@
     },
     {
       "hall": "Epicuria at Covel",
-      "meal": "Dinner",
-      "station": "Psistaris",
-      "name": "Grilled Fresh Herb Chicken",
+      "meal": "Lunch",
+      "station": "Capri",
+      "name": "Chicken",
       "tags": [
         "Halal food item"
       ],
       "has_fish": false,
       "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=6341"
+      "recipe_url": "/menu-item/?recipe=1341"
     },
     {
       "hall": "Epicuria at Covel",
-      "meal": "Dinner",
-      "station": "Psistaris",
-      "name": "Roasted Eggplant on Foccacia",
+      "meal": "Lunch",
+      "station": "Alimenti",
+      "name": "Beef Barley Soup",
       "tags": [
-        "Vegetarian food item",
+        "High carbon footprint food item",
         "Halal food item",
-        "Contains Gluten",
-        "Contains wheat",
-        "Contains dairy"
+        "Contains Gluten"
       ],
       "has_fish": false,
       "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=3676"
+      "recipe_url": "/menu-item/?recipe=8581"
     },
     {
       "hall": "Epicuria at Covel",
-      "meal": "Dinner",
-      "station": "Alimenti",
+      "meal": "Lunch",
+      "station": "Mezze",
+      "name": "Muhammara (Spicy Roasted Pepper Dip)",
+      "tags": [
+        "Vegan food item",
+        "Low carbon footprint food item",
+        "Halal food item",
+        "Contains tree nuts"
+      ],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=6203"
+    },
+    {
+      "hall": "Epicuria at Covel",
+      "meal": "Lunch",
+      "station": "Mezze",
       "name": "Shrimp Saganaki & White Bean Saute",
       "tags": [
         "Halal food item",
@@ -765,15 +814,73 @@
     {
       "hall": "Epicuria at Covel",
       "meal": "Dinner",
-      "station": "Alimenti",
-      "name": "Zatar Chicken & Yam Soup",
+      "station": "Capri",
+      "name": "Chicken Fettuccine Alfredo",
       "tags": [
         "Halal food item",
-        "Contains sesame seeds"
+        "Contains Gluten",
+        "Contains wheat",
+        "Contains dairy"
       ],
       "has_fish": false,
       "has_shellfish": false,
-      "recipe_url": "/menu-item/?recipe=8580"
+      "recipe_url": "/menu-item/?recipe=6597"
+    },
+    {
+      "hall": "Epicuria at Covel",
+      "meal": "Dinner",
+      "station": "Psistaris",
+      "name": "Roasted Eggplant",
+      "tags": [
+        "Vegan food item",
+        "Low carbon footprint food item",
+        "Halal food item"
+      ],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=1180"
+    },
+    {
+      "hall": "Epicuria at Covel",
+      "meal": "Dinner",
+      "station": "Alimenti",
+      "name": "North African Spiced Pork w/ Oven Roasted Tomatoes & Fregola",
+      "tags": [],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=1935"
+    },
+    {
+      "hall": "Epicuria at Covel",
+      "meal": "Dinner",
+      "station": "Alimenti",
+      "name": "Lasagna Impossible Bolognese",
+      "tags": [
+        "Vegetarian food item",
+        "Halal food item",
+        "Contains soy",
+        "Contains Gluten",
+        "Contains wheat",
+        "Contains dairy",
+        "Contains egg"
+      ],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=1954"
+    },
+    {
+      "hall": "Epicuria at Covel",
+      "meal": "Dinner",
+      "station": "Alimenti",
+      "name": "Beef Barley Soup",
+      "tags": [
+        "High carbon footprint food item",
+        "Halal food item",
+        "Contains Gluten"
+      ],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=8581"
     },
     {
       "hall": "Epicuria at Covel",
@@ -789,6 +896,202 @@
       "has_fish": false,
       "has_shellfish": false,
       "recipe_url": "/menu-item/?recipe=6203"
+    },
+    {
+      "hall": "Feast at Rieber",
+      "meal": "Lunch",
+      "station": "Spice Kitchen",
+      "name": "Crispy Pork Belly",
+      "tags": [
+        "Contains soy",
+        "Contains Gluten",
+        "Contains wheat"
+      ],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=1944"
+    },
+    {
+      "hall": "Feast at Rieber",
+      "meal": "Lunch",
+      "station": "Spice Kitchen",
+      "name": "Vegetable Egg Roll",
+      "tags": [
+        "Vegetarian food item",
+        "Low carbon footprint food item",
+        "Contains soy",
+        "Contains Gluten",
+        "Contains wheat",
+        "Contains sesame seeds",
+        "Contains egg"
+      ],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=1165"
+    },
+    {
+      "hall": "Feast at Rieber",
+      "meal": "Lunch",
+      "station": "Stone Oven",
+      "name": "Beef Hayashi Flatbread",
+      "tags": [
+        "High carbon footprint food item",
+        "Contains fish",
+        "Contains soy",
+        "Contains Gluten",
+        "Contains wheat",
+        "Contains dairy",
+        "Food item prepared with alcohol"
+      ],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=10368"
+    },
+    {
+      "hall": "Feast at Rieber",
+      "meal": "Lunch",
+      "station": "Stone Oven",
+      "name": "Paneer and Veggie Flatbread",
+      "tags": [
+        "Vegetarian food item",
+        "Contains Gluten",
+        "Contains wheat",
+        "Contains dairy"
+      ],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=10371"
+    },
+    {
+      "hall": "Feast at Rieber",
+      "meal": "Dinner",
+      "station": "Bruin Wok",
+      "name": "Kung Pao Chicken",
+      "tags": [
+        "Contains soy",
+        "Contains Gluten",
+        "Contains peanuts",
+        "Contains wheat",
+        "Contains egg",
+        "Food item prepared with alcohol"
+      ],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=3892"
+    },
+    {
+      "hall": "Feast at Rieber",
+      "meal": "Dinner",
+      "station": "Bruin Wok",
+      "name": "Caramelized Eggplant",
+      "tags": [
+        "Vegan food item",
+        "Low carbon footprint food item",
+        "Contains soy",
+        "Contains Gluten",
+        "Contains wheat",
+        "Contains sesame seeds"
+      ],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=3049"
+    },
+    {
+      "hall": "Feast at Rieber",
+      "meal": "Dinner",
+      "station": "Spice Kitchen",
+      "name": "Spicy Tuna Bowl",
+      "tags": [
+        "Contains fish",
+        "Contains soy",
+        "Contains Gluten",
+        "Contains wheat"
+      ],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=9386"
+    },
+    {
+      "hall": "Feast at Rieber",
+      "meal": "Dinner",
+      "station": "Spice Kitchen",
+      "name": "Tofu & Edamame Bowl",
+      "tags": [
+        "Vegan food item",
+        "Low carbon footprint food item",
+        "Contains soy",
+        "Contains Gluten",
+        "Contains wheat",
+        "Contains sesame seeds"
+      ],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=2900"
+    },
+    {
+      "hall": "Feast at Rieber",
+      "meal": "Dinner",
+      "station": "Stone Oven",
+      "name": "Diced Tofu",
+      "tags": [
+        "Vegan food item",
+        "Low carbon footprint food item",
+        "Contains soy"
+      ],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=7560"
+    },
+    {
+      "hall": "Feast at Rieber",
+      "meal": "Dinner",
+      "station": "Iron Grill",
+      "name": "Beef Scallion Pancake Roll",
+      "tags": [
+        "Vegan food item",
+        "Low carbon footprint food item",
+        "Contains soy",
+        "Contains Gluten",
+        "Contains wheat",
+        "Contains sesame seeds",
+        "Food item prepared with alcohol"
+      ],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=9485"
+    },
+    {
+      "hall": "Feast at Rieber",
+      "meal": "Dinner",
+      "station": "Iron Grill",
+      "name": "Teriyaki Seitan Burger",
+      "tags": [
+        "Contains soy",
+        "Contains Gluten",
+        "Contains wheat",
+        "Contains sesame seeds",
+        "Contains dairy",
+        "Contains egg",
+        "Food item prepared with alcohol"
+      ],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=9295"
+    },
+    {
+      "hall": "Feast at Rieber",
+      "meal": "Dinner",
+      "station": "Iron Grill",
+      "name": "Chicken Teriyaki",
+      "tags": [
+        "Contains soy",
+        "Contains Gluten",
+        "Contains wheat",
+        "Food item prepared with alcohol"
+      ],
+      "has_fish": false,
+      "has_shellfish": false,
+      "recipe_url": "/menu-item/?recipe=7425"
     }
   ]
 }
